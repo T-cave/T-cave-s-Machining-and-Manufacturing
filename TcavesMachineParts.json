@@ -155,8 +155,8 @@
 			},
 			"lower": {
 				"segmentId": "STMM_Stenzel_Mfg_track_B2_0",
-				"distance": 0.0,
-				"end": "End"
+				"distance": 40.8,
+				"end": "Start"
 			}
 		},
 		"Pk2u": {
@@ -227,8 +227,8 @@
 			},
 			"lower": {
 				"segmentId": "STMM_Stenzel_Mfg_track_B1_0",
-				"distance": 20.0,
-				"end": "End"
+				"distance": 40.0,
+				"end": "Start"
 			}
 		}
 	},

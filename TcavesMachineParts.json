@@ -1,5 +1,152 @@
 {
-	"spans":{
+	"nodes": {
+		"Ne1w": {
+			"position": {
+				"x": 12254.6572,
+				"y": 561.315,
+				"z": 5861.796
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 202.367981,
+				"z": 0.0
+			},
+			"flipSwitchStand": true
+		},
+		"N6an": {
+			"position": {
+				"x": 12246.7588,
+				"y": 561.315,
+				"z": 5846.633
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 211.8868,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"Np1s": {
+			"position": {
+				"x": 4104.22,
+				"y": 645.0,
+				"z": -3304.20
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 148.538345,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"fa7228": {
+			"position": {
+				"x": 12195.213882709311,
+				"y": 561.9,
+				"z": 5778.788208652507
+			},
+			"rotation": {
+				"x": 0.8,
+				"y": 22.3765888,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_crossing_00": {
+			"position": {
+				"x": 12233.0479,
+				"y": 561.4,
+				"z": 5828.367
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 220.399887,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_crossing_01": {
+			"position": {
+				"x": 12223.9385,
+				"y": 561.480042,
+				"z": 5818.00342
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 221.640182,
+				"z": 0.0
+			},
+			"flipSwitchStand": true
+		},
+		"NTMM_Stenzel_Mfg_track_B1_0": {
+			"position": {
+				"x": 12199.83827365374,
+				"y": 561.9,
+				"z": 5776.886891618124
+			},
+			"rotation": {
+				"x": 0.8,
+				"y": 22.3765888,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_track_B1_1": {
+			"position": {
+				"x": 12184.98869101722,
+				"y": 562.3,
+				"z": 5740.769682635688
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 22.37658885,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		}
+	},
+	"segments": {
+		"Sgov": {
+			"startId": "NTMM_Stenzel_Mfg_crossing_00"
+		},
+		"STMM_Stenzel_Mfg_track_B1_0": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"STMM_Stenzel_Mfg_track_B1_1": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"endId": "NTMM_Stenzel_Mfg_track_B1_1",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"STMM_Stenzel_Mfg_track_B2_0": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "fa7228",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"Sr7d": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_00",
+			"endId": "NTMM_Stenzel_Mfg_crossing_01",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		}
+	},
+	"spans": {
 		"Pprf": {
 			"upper": {
 				"segmentId": "q06god",
@@ -7,8 +154,8 @@
 				"end": "End"
 			},
 			"lower": {
-				"segmentId": "Sgov",
-				"distance": 45.0,
+				"segmentId": "STMM_Stenzel_Mfg_track_B2_0",
+				"distance": 0.0,
 				"end": "End"
 			}
 		},
@@ -19,12 +166,12 @@
 				"end": "End"
 			},
 			"lower": {
-				"segmentId": "Sehz",
-				"distance": 38.5,
+				"segmentId": "Scx2",
+				"distance": 3.0,
 				"end": "Start"
 			}
 		},
-		"Alarka-Engine-Parts-Span": {
+		"PTMM-Alarka-Engine-Parts": {
 			"upper": {
 				"segmentId": "Sbig",
 				"distance": 0.0,
@@ -35,8 +182,8 @@
 				"distance": 0.0,
 				"end": "Start"
 			}
-		},		
-		"Sylva-Paperboard-Machine-Parts-Span": {
+		},
+		"PTMM-Sylva-Paperboard-Machine-Parts": {
 			"upper": {
 				"segmentId": "S00z",
 				"distance": 0.0,
@@ -47,8 +194,8 @@
 				"distance": 0.0,
 				"end": "Start"
 			}
-		},		
-		"Sylva-Parsons-Machine-Parts-Span": {
+		},
+		"PTMM-Sylva-Parsons-Machine-Parts": {
 			"upper": {
 				"segmentId": "Sgq6",
 				"distance": 40.0,
@@ -60,7 +207,7 @@
 				"end": "Start"
 			}
 		},
-		"Whittier-Sawmill-Machine-Parts-Span": {
+		"PTMM-Whittier-Sawmill-Machine-Parts": {
 			"upper": {
 				"segmentId": "Sif5j",
 				"distance": 0.0,
@@ -71,7 +218,19 @@
 				"distance": 0.0,
 				"end": "Start"
 			}
-		}		
+		},
+		"PTMM-Whittier-Stenzel-B1": {
+			"upper": {
+				"segmentId": "STMM_Stenzel_Mfg_track_B1_1",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "STMM_Stenzel_Mfg_track_B1_0",
+				"distance": 20.0,
+				"end": "End"
+			}
+		}
 	},
 	"areas": {
 		"alarka": {
@@ -111,12 +270,12 @@
 					}
 				},
 				"al-engine": {
-					"components": {						
+					"components": {
 						"machine-parts": {
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Alarka Engine Service MP1",
 							"trackSpans": [
-								"Alarka-Engine-Parts-Span"
+								"PTMM-Alarka-Engine-Parts"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -126,12 +285,12 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 500000.0,
 							"orderAroundLoaded": true
-						},						
+						},
 						"train-wheels": {
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Alarka Engine Service MP1",
 							"trackSpans": [
-								"Alarka-Engine-Parts-Span"
+								"PTMM-Alarka-Engine-Parts"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -141,7 +300,7 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
-						}					
+						}
 					}
 				}
 			}
@@ -173,9 +332,9 @@
 					}
 				}
 			}
-		},		
-		"andrews":{
-			"industries":{
+		},
+		"andrews": {
+			"industries": {
 				"andrews-paper": {
 					"components": {
 						"formula": {
@@ -201,7 +360,7 @@
 					}
 				},
 				"andrews-service": {
-					"components": {						
+					"components": {
 						"machine-parts": {
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Andrews Engine Service MP1",
@@ -216,7 +375,7 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 500000.0,
 							"orderAroundLoaded": true
-						},					
+						},
 						"train-wheels": {
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Andrews Engine Service MP1",
@@ -231,12 +390,12 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
-						}			  
+						}
 					}
 				}
 			}
-		},	
-		"bryson": {     
+		},
+		"bryson": {
 			"industries": {
 				"bryson-hardwoods": {
 					"components": {
@@ -331,9 +490,9 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
-						}						
+						}
 					}
-				}				
+				}
 			}
 		},
 		"sylva": {
@@ -349,7 +508,7 @@
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Sylva Paperboard MP1",
 							"trackSpans": [
-								"Sylva-Paperboard-Machine-Parts-Span"
+								"PTMM-Sylva-Paperboard-Machine-Parts"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -373,7 +532,7 @@
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Parson's Tannery MP1",
 							"trackSpans": [
-								"Sylva-Parsons-Machine-Parts-Span"
+								"PTMM-Sylva-Parsons-Machine-Parts"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -401,7 +560,7 @@
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "Whittier Saw Mill MP1",
 							"trackSpans": [
-								"Whittier-Sawmill-Machine-Parts-Span"
+								"PTMM-Whittier-Sawmill-Machine-Parts"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -411,7 +570,7 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 500000.0,
 							"orderAroundLoaded": true
-						}					
+						}
 					}
 				},
 				"whittier-stenzel": {
@@ -420,29 +579,32 @@
 							"outputTermsPerDay": {
 								"farming-machinery": 50000.0,
 								"bridge-section": 40000.0,
-								"scrap-metal": 20000.0
+								"scrap-metal": 10000.0,
+								"mow-machinery": 20000.0
 							}
 						},
-						"loader-bridge-section": {
-							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg BB2",
+						"unloader": {
+							"name": "Stenzel Mfg B1/B2",
 							"trackSpans": [
-								"Pprf"
-							],
-							"carTypeFilter": "FM*",
-							"sharedStorage": true,
-							"loadId": "bridge-section",
-							"storageChangeRate": 0.0,
-							"maxStorage": 40000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 2000000.0,
-							"orderAroundLoaded": true
+								{
+									"$add": "PTMM-Whittier-Stenzel-B1"
+								}
+							]
+						},
+						"loader": {
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								{
+									"$add": "PTMM-Whittier-Stenzel-B1"
+								}
+							]
 						},
 						"loader-farming-machinery": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg BB2",
+							"name": "Stenzel Mfg B1/B2",
 							"trackSpans": [
-								"Pprf"
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -453,11 +615,28 @@
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
 						},
+						"loader-bridge-section": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "FM*",
+							"sharedStorage": true,
+							"loadId": "bridge-section",
+							"storageChangeRate": 0.0,
+							"maxStorage": 40000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 2000000.0,
+							"orderAroundLoaded": true
+						},
 						"loader-scrap-metal": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg BB2",
+							"name": "Stenzel Mfg B1/B2",
 							"trackSpans": [
-								"Pprf"
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
 							],
 							"carTypeFilter": "GB*",
 							"sharedStorage": true,
@@ -466,6 +645,22 @@
 							"maxStorage": 30000.0,
 							"orderAroundEmpties": true,
 							"carTransferRate": 2000000.0,
+							"orderAroundLoaded": true
+						},
+						"loader-mow-machinery": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "FM*",
+							"sharedStorage": true,
+							"loadId": "mow-machinery",
+							"storageChangeRate": 0.0,
+							"maxStorage": 30000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
 						}
 					}
@@ -486,7 +681,7 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 500000.0,
 							"orderAroundLoaded": true
-						},	
+						},
 						"train-wheels": {
 							"type": "Model.OpsNew.IndustryUnloader",
 							"name": "East Whittier Engine Service MP1",
@@ -501,10 +696,10 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
-						}					
+						}
 					}
 				}
 			}
-		}		
+		}
 	}
 }

@@ -2,7 +2,7 @@
   "manifestVersion": 5,
   "id": "Tcave.TcavesMachineParts",
   "name": "T-cave's Machine Parts",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "_requires": [
     {
       "id": "NickB.TheStandardCatalogofLoadIDs",

@@ -1,0 +1,716 @@
+{
+	"nodes": {
+		"Ne1w": {
+			"position": {
+				"x": 12254.6572,
+				"y": 561.315,
+				"z": 5861.796
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 202.367981,
+				"z": 0.0
+			},
+			"flipSwitchStand": true
+		},
+		"N6an": {
+			"position": {
+				"x": 12246.7588,
+				"y": 561.315,
+				"z": 5846.633
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 211.8868,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"Np1s": {
+			"position": {
+				"x": 4104.22,
+				"y": 645.0,
+				"z": -3304.20
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 148.538345,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"fa7228": {
+			"position": {
+				"x": 12195.213882709311,
+				"y": 561.9,
+				"z": 5778.788208652507
+			},
+			"rotation": {
+				"x": 0.8,
+				"y": 22.3765888,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_crossing_00": {
+			"position": {
+				"x": 12233.0479,
+				"y": 561.4,
+				"z": 5828.367
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 220.399887,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_crossing_01": {
+			"position": {
+				"x": 12223.9385,
+				"y": 561.480042,
+				"z": 5818.00342
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 221.640182,
+				"z": 0.0
+			},
+			"flipSwitchStand": true
+		},
+		"NTMM_Stenzel_Mfg_track_B1_0": {
+			"position": {
+				"x": 12199.83827365374,
+				"y": 561.9,
+				"z": 5776.886891618124
+			},
+			"rotation": {
+				"x": 0.8,
+				"y": 22.3765888,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_track_B1_1": {
+			"position": {
+				"x": 12184.98869101722,
+				"y": 562.3,
+				"z": 5740.769682635688
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 22.37658885,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		}
+	},
+	"segments": {
+		"Sgov": {
+			"startId": "NTMM_Stenzel_Mfg_crossing_00"
+		},
+		"STMM_Stenzel_Mfg_track_B1_0": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"STMM_Stenzel_Mfg_track_B1_1": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"endId": "NTMM_Stenzel_Mfg_track_B1_1",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"STMM_Stenzel_Mfg_track_B2_0": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "fa7228",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"Sr7d": {
+			"style": "Standard",
+			"trackClass": "Mainline",
+			"startId": "NTMM_Stenzel_Mfg_crossing_00",
+			"endId": "NTMM_Stenzel_Mfg_crossing_01",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		}
+	},
+	"spans": {
+		"Pprf": {
+			"upper": {
+				"segmentId": "q06god",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "STMM_Stenzel_Mfg_track_B2_0",
+				"distance": 40.8,
+				"end": "Start"
+			}
+		},
+		"Pk2u": {
+			"upper": {
+				"segmentId": "Scx2",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "Scx2",
+				"distance": 3.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Alarka-Engine-Parts": {
+			"upper": {
+				"segmentId": "Sbig",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "S1uk",
+				"distance": 0.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Sylva-Paperboard-Machine-Parts": {
+			"upper": {
+				"segmentId": "S00z",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "S00z",
+				"distance": 0.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Sylva-Parsons-Machine-Parts": {
+			"upper": {
+				"segmentId": "Sgq6",
+				"distance": 40.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "Sgq6",
+				"distance": 80.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Whittier-Sawmill-Machine-Parts": {
+			"upper": {
+				"segmentId": "Sif5j",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "Sif5j",
+				"distance": 0.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Whittier-Stenzel-B1": {
+			"upper": {
+				"segmentId": "STMM_Stenzel_Mfg_track_B1_1",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "STMM_Stenzel_Mfg_track_B1_0",
+				"distance": 40.0,
+				"end": "Start"
+			}
+		}
+	},
+	"areas": {
+		"alarka": {
+			"industries": {
+				"alarka-lsmith": {
+					"components": {
+						"b5-train-wheels": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "L. Smith Machining B5",
+							"trackSpans": [
+								"Pk2u"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 50000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 100000.0,
+							"orderAroundLoaded": true
+						},
+						"b5-scrap-metal": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "L. Smith Machining B5",
+							"trackSpans": [
+								"Pk2u"
+							],
+							"carTypeFilter": "GB*",
+							"sharedStorage": true,
+							"loadId": "scrap-metal",
+							"storageChangeRate": 20000.0,
+							"maxStorage": 30000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 100000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"al-engine": {
+					"components": {
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Alarka Engine Service MP1",
+							"trackSpans": [
+								"PTMM-Alarka-Engine-Parts"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 11000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						},
+						"train-wheels": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Alarka Engine Service MP1",
+							"trackSpans": [
+								"PTMM-Alarka-Engine-Parts"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 8000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"alarka-jct": {
+			"industries": {
+				"robinson-mine": {
+					"components": {
+						"formula": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 20000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Robinson Gap Coal MP1",
+							"trackSpans": [
+								"P4go"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 100000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"andrews": {
+			"industries": {
+				"andrews-paper": {
+					"components": {
+						"formula": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 30000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Snowbird Paper MP1",
+							"trackSpans": [
+								"Pxfm"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"andrews-service": {
+					"components": {
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Andrews Engine Service MP1",
+							"trackSpans": [
+								"P7ev"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 12500.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						},
+						"train-wheels": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Andrews Engine Service MP1",
+							"trackSpans": [
+								"P7ev"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 15000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"bryson": {
+			"industries": {
+				"bryson-hardwoods": {
+					"components": {
+						"formula": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 15000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Appalachian Hardwoods MP1",
+							"trackSpans": [
+								"Py41"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"bryson-roundhouse-ops": {
+					"components": {
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Bryson Engine Service MP1",
+							"trackSpans": [
+								"Pcf7"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 30000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						},
+						"train-wheels": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Bryson Engine Service MP1",
+							"trackSpans": [
+								"Pcf7"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 18000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"dillsboro": {
+			"industries": {
+				"dillsboro-roundhouse-ops": {
+					"components": {
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Dillsboro Engine Service MP1",
+							"trackSpans": [
+								"Poi6"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 25000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						},
+						"train-wheels": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Dillsboro Engine Service MP1",
+							"trackSpans": [
+								"Poi6"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 12000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"sylva": {
+			"industries": {
+				"sylva-paperboard": {
+					"components": {
+						"formula": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 25000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Sylva Paperboard MP1",
+							"trackSpans": [
+								"PTMM-Sylva-Paperboard-Machine-Parts"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"sylva-tannery": {
+					"components": {
+						"formula": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 25000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Parson's Tannery MP1",
+							"trackSpans": [
+								"PTMM-Sylva-Parsons-Machine-Parts"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		},
+		"whittier": {
+			"industries": {
+				"whittier-sawmill": {
+					"components": {
+						"": {
+							"inputTermsPerDay": {
+								"boxcar-parts": 25000.0
+							}
+						},
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "Whittier Saw Mill MP1",
+							"trackSpans": [
+								"PTMM-Whittier-Sawmill-Machine-Parts"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 0.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"whittier-stenzel": {
+					"components": {
+						"formula": {
+							"outputTermsPerDay": {
+								"farming-machinery": 50000.0,
+								"bridge-section": 40000.0,
+								"scrap-metal": 10000.0,
+								"mow-machinery": 20000.0
+							}
+						},
+						"unloader": {
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								{
+									"$add": "PTMM-Whittier-Stenzel-B1"
+								}
+							]
+						},
+						"loader": {
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								{
+									"$add": "PTMM-Whittier-Stenzel-B1"
+								}
+							]
+						},
+						"loader-farming-machinery": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "farming-machinery",
+							"storageChangeRate": 0.0,
+							"maxStorage": 40000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						},
+						"loader-bridge-section": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "FM*",
+							"sharedStorage": true,
+							"loadId": "bridge-section",
+							"storageChangeRate": 0.0,
+							"maxStorage": 40000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 2000000.0,
+							"orderAroundLoaded": true
+						},
+						"loader-scrap-metal": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "GB*",
+							"sharedStorage": true,
+							"loadId": "scrap-metal",
+							"storageChangeRate": 0.0,
+							"maxStorage": 30000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 2000000.0,
+							"orderAroundLoaded": true
+						},
+						"loader-mow-machinery": {
+							"type": "Model.OpsNew.IndustryLoader",
+							"name": "Stenzel Mfg B1/B2",
+							"trackSpans": [
+								"Pprf",
+								"PTMM-Whittier-Stenzel-B1"
+							],
+							"carTypeFilter": "FM*",
+							"sharedStorage": true,
+							"loadId": "mow-machinery",
+							"storageChangeRate": 0.0,
+							"maxStorage": 30000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				},
+				"wh-e-engine": {
+					"components": {
+						"machine-parts": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "East Whittier Engine Service MP1",
+							"trackSpans": [
+								"Pap9"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "boxcar-parts",
+							"storageChangeRate": 15000.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 500000.0,
+							"orderAroundLoaded": true
+						},
+						"train-wheels": {
+							"type": "Model.OpsNew.IndustryUnloader",
+							"name": "East Whittier Engine Service MP1",
+							"trackSpans": [
+								"Pap9"
+							],
+							"carTypeFilter": "XM*,FM*",
+							"sharedStorage": true,
+							"loadId": "train-wheels",
+							"storageChangeRate": 7500.0,
+							"maxStorage": 20000.0,
+							"orderAroundEmpties": true,
+							"carTransferRate": 1000000.0,
+							"orderAroundLoaded": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"loads": {
+		"truck-test": {
+			"description": "Truck Test",
+			"units": "Quantity",
+			"density": 50.0,
+			"unitWeightInPounds": 10000.0,
+			"importable": true,
+			"payPerQuantity": 30.0,
+			"costPerUnit": 0.0
+		}
+	}
+}

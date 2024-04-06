@@ -1,19 +1,23 @@
 {
   "manifestVersion": 5,
-  "id": "Tcave.TcavesMachineParts",
-  "name": "T-cave's Machine Parts",
+  "id": "Tcave.TcavesMachiningAndManufacturing",
+  "name": "T-cave's Machine and Manufacturing",
   "version": "0.9.3",
-  "_requires": [
+  "requires": [
+    {
+      "id": "railloader",
+      "notBefore": "1.7.2"
+    },
+    {
+      "id": "Zamu.StrangeCustoms",
+      "notBefore": "1.6"
+    },
     {
       "id": "NickB.TheStandardCatalogofLoadIDs",
       "notBefore": "1.0"
     }
   ],
-  "requires": [
-    "Zamu.StrangeCustoms",
-    "NickB.TheStandardCatalogofLoadIDs"
-  ],
   "mixintos": {
-    "game-graph": "file(TcavesMachineParts.json)"
+    "game-graph": "file(TcavesMachiningAndManufacturing.json)"
   }
 }

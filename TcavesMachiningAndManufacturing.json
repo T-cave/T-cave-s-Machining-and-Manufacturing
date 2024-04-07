@@ -116,7 +116,7 @@
 			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
 			"priority": 0,
 			"speedLimit": 0,
-			"groupId": ""
+			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B1_1": {
 			"style": "Standard",
@@ -125,7 +125,7 @@
 			"endId": "NTMM_Stenzel_Mfg_track_B1_1",
 			"priority": 0,
 			"speedLimit": 0,
-			"groupId": ""
+			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B2_0": {
 			"style": "Standard",
@@ -584,27 +584,16 @@
 							}
 						},
 						"unloader": {
-							"name": "Stenzel Mfg B1/B2",
-							"trackSpans": [
-								{
-									"$add": "PTMM-Whittier-Stenzel-B1"
-								}
-							]
+							"name": "Stenzel Mfg B1"
 						},
 						"loader": {
-							"name": "Stenzel Mfg B1/B2",
-							"trackSpans": [
-								{
-									"$add": "PTMM-Whittier-Stenzel-B1"
-								}
-							]
+							"name": "Stenzel Mfg B1"
 						},
 						"loader-farming-machinery": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B1/B2",
+							"name": "Stenzel Mfg B1",
 							"trackSpans": [
-								"Pprf",
-								"PTMM-Whittier-Stenzel-B1"
+								"Pprf"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -617,9 +606,8 @@
 						},
 						"loader-bridge-section": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B1/B2",
+							"name": "Stenzel Mfg B2",
 							"trackSpans": [
-								"Pprf",
 								"PTMM-Whittier-Stenzel-B1"
 							],
 							"carTypeFilter": "FM*",
@@ -633,9 +621,8 @@
 						},
 						"loader-scrap-metal": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B1/B2",
+							"name": "Stenzel Mfg B2",
 							"trackSpans": [
-								"Pprf",
 								"PTMM-Whittier-Stenzel-B1"
 							],
 							"carTypeFilter": "GB*",
@@ -649,9 +636,8 @@
 						},
 						"loader-mow-machinery": {
 							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B1/B2",
+							"name": "Stenzel Mfg B2",
 							"trackSpans": [
-								"Pprf",
 								"PTMM-Whittier-Stenzel-B1"
 							],
 							"carTypeFilter": "FM*",
@@ -662,6 +648,26 @@
 							"orderAroundEmpties": true,
 							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
+						}
+					}
+				},
+				"TMM_Whittier_Stenzel_Mfg_Expantion": {
+					"name": "Stenzel Mfg Expantion",
+					"localPosition": {
+						"x": -96.22534,
+						"y": 2.00024414,
+						"z": 8.899963
+					},
+					"usesContract": false,
+					"components": {
+						"site": {
+							"name": "Stenzel Mfg Expantion",
+							"type": "Model.OpsNew.ProgressionIndustryComponent",
+							"carTypeFilter": "*",
+							"sharedStorage": true,
+							"trackSpans": [
+								"Pprf"
+							]
 						}
 					}
 				},
@@ -700,17 +706,6 @@
 					}
 				}
 			}
-		}
-	},
-	"loads": {
-		"truck-test": {
-			"description": "Truck Test",
-			"units": "Quantity",
-			"density": 50.0,
-			"unitWeightInPounds": 10000.0,
-			"importable": true,
-			"payPerQuantity": 30.0,
-			"costPerUnit": 0.0
 		}
 	}
 }

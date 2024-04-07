@@ -18,6 +18,9 @@
     }
   ],
   "mixintos": {
-    "game-graph": "file(TcavesMachiningAndManufacturing.json)"
+    "game-graph": "file(TcavesMachiningAndManufacturing.json)",
+    "game-migrations": "file(game-migrations.json)",
+    "AlinasMapMod": "file(AlinasMapMod.json)",
+    "progressions": "file(progressions.json)"
   }
 }

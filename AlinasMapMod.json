@@ -32,7 +32,7 @@
             {
               "direction": 0,
               "count": 1,
-              "load": "boxcar-parts",
+              "load": "boxcar-generic",
               "carTypeFilter": "FM*"
             },
             {

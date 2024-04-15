@@ -2,7 +2,7 @@
   "manifestVersion": 5,
   "id": "Tcave.TcavesMachiningAndManufacturing",
   "name": "T-cave's Machining and Manufacturing",
-  "version": "0.9.3",
+  "version": "0.9.5",
   "requires": [
     {
       "id": "railloader",
@@ -10,21 +10,23 @@
     },
     {
       "id": "Zamu.StrangeCustoms",
-      "notBefore": "1.6"
+      "notBefore": "1.6.24103.2234"
     },
     {
       "id": "NickB.TheStandardCatalogofLoadIDs",
-      "notBefore": "1.0"
+      "notBefore": "2.0"
     },
     {
       "id": "AlinaNova21.AlinasMapMod",
       "notBefore": "1.3.24087.634"
+    },
+    {
+      "id": "Tcave.TcavesMOWcarWorkmen",
+      "notBefore": "1.0"
     }
   ],
   "mixintos": {
     "game-graph": "file(TcavesMachiningAndManufacturing.json)",
-    "game-migrations": "file(game-migrations.json)",
-    "AlinasMapMod": "file(AlinasMapMod.json)",
     "progressions": "file(progressions.json)"
   }
 }

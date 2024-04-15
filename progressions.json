@@ -6,7 +6,7 @@
           "displayName": "Stenzel Mfg Expantion",
           "deliveryPhases": [
             {
-              "cost": 2000,
+              "cost": 750,
               "deliveries": [
                 {
                   "carTypeFilter": "FM*",
@@ -29,8 +29,8 @@
                 {
                   "direction": 0,
                   "count": 1,
-                  "load": "boxcar-generic",
-                  "carTypeFilter": "FM*"
+                  "load": "building-supplies",
+                  "carTypeFilter": "XM*"
                 },
                 {
                   "direction": 1,
@@ -39,23 +39,164 @@
                   "carTypeFilter": "GB*"
                 }
               ],
-              "industryComponent": "TMM_Whittier_Stenzel_Mfg_Expantion.site"
+              "industryComponent": "whittier-stenzel.site"
             }
           ],
           "enableFeaturesOnUnlock": {
             "TMM_Whittier_Stenzel_Mfg_Expantion": true
           },
-          "prerequisiteSections": {
-          },
+          "prerequisiteSections": {},
           "description": "Stenzel Mfg. in Whittier wants to expand their output, in order to do so they need you to build a second track at their company."
+        },
+        "TMM_Bryson_Cottonworks_Building": {
+          "displayName": "Building Wild Oak Cottonworks Co.",
+          "description": "The Wild Oak Cottonworks Co. in Bryson wants to start shipping their products by rail.\n\nIn order to do so you need to build tracks to their factory located on the east side of Bryson.\n\nDuring construction they will not be able to import supplies so expect a great demand immediately after construction is complete so they can refill their storage.",
+          "prerequisiteSections": {
+            "s2": true
+          },
+          "deliveryPhases": [
+            {
+              "cost": 1000,
+              "deliveries": [
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "load": "workmen",
+                  "carTypeFilter": "MW*"
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "load": "mow-machinery",
+                  "carTypeFilter": "FM*"
+                },
+                {
+                  "direction": 0,
+                  "count": 1,
+                  "load": "building-supplies",
+                  "carTypeFilter": "XM*"
+                },
+                {
+                  "direction": 1,
+                  "count": 6,
+                  "load": "debris",
+                  "carTypeFilter": "GB*"
+                }
+              ],
+              "industryComponent": "TMM_Progression_Bryson_Cottonworks.build_site"
+            },
+            {
+              "cost": 1500,
+              "deliveries": [
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "load": "workmen",
+                  "carTypeFilter": "MW*"
+                },
+                {
+                  "direction": 1,
+                  "count": 1,
+                  "load": "mow-machinery",
+                  "carTypeFilter": "FM*"
+                },
+                {
+                  "direction": 0,
+                  "count": 2,
+                  "load": "building-supplies",
+                  "carTypeFilter": "XM*"
+                },
+                {
+                  "carTypeFilter": "FM*",
+                  "count": 4,
+                  "load": "ties",
+                  "direction": 0
+                },
+                {
+                  "carTypeFilter": "FM*",
+                  "count": 2,
+                  "load": "rails",
+                  "direction": 0
+                },
+                {
+                  "direction": 0,
+                  "count": 6,
+                  "load": "ballast",
+                  "carTypeFilter": "GS*"
+                }
+              ],
+              "industryComponent": "TMM_Progression_Bryson_Cottonworks.build_site"
+            }
+          ],
+          "disableFeaturesOnUnlock": {},
+          "enableFeaturesOnUnlock": {
+            "TMM_Bryson_Cottonworks_Building": true
+          },
+          "enableFeaturesOnAvailable": {}
+        },
+        "TMM_Bryson_Cottonworks_Upgrade": {
+          "displayName": "Upgrading Wild Oak Cottonworks Co.",
+          "description": "The Wild Oak Cottonworks Co. has been offered a lucrative longterm contract to supply their products to a large clothing company.\n\nIn order to satisfy the contract they will need to upgrade and add more machines.\n\nBut beware this contract means the company will get triple their current production so do not accept this contract lightly.\n\nIf you think you have what it takes to keep up with this contract, then deliver their new machines and brace yourself for the immense task ahead of you.",
+          "prerequisiteSections": {
+            "TMM_Bryson_Cottonworks_Building": true
+          },
+          "deliveryPhases": [
+            {
+              "cost": -500,
+              "deliveries": [
+                {
+                  "direction": 0,
+                  "count": 6,
+                  "load": "boxcar-parts",
+                  "carTypeFilter": "XM*"
+                },
+                {
+                  "direction": 0,
+                  "count": 8,
+                  "load": "boxcar-parts",
+                  "carTypeFilter": "FM*"
+                }
+              ],
+              "industryComponent": "TMM_Bryson_Cottonworks.expantion_site"
+            }
+          ],
+          "disableFeaturesOnUnlock": {
+            "TMM_Bryson_Cottonworks_Low_Production": true
+          },
+          "enableFeaturesOnUnlock": {
+            "TMM_Bryson_Cottonworks_High_Production": true
+          },
+          "enableFeaturesOnAvailable": {}
+        },
+        "TMM_Engine_Services_Machine_Parts": {
+          "displayName": "Engine Services Machine Parts",
+          "deliveryPhases": [
+            {
+              "cost": 0,
+              "deliveries": [],
+              "industryComponent": ""
+            }
+          ],
+          "enableFeaturesOnUnlock": {
+            "TMM_Engine_Services_Machine_Parts": true
+          },
+          "prerequisiteSections": {},
+          "description": "If you purchase this milestone you will need to deliver Machine Parts and Train Wheels to all Engine Services with a repair facility that you have unlocked, even if you have no mechanics working there.\n\nThese are: Dillsboro, Whittier, Bryson, Alarka and Andrews"
         }
       }
     }
   },
   "mapFeatures": {
+    "el-br": {
+      "defaultEnableInSandbox": true,
+      "unlockExcludeIndustries": {
+        "TMM_Bryson_Cottonworks": true
+      }
+    },
     "TMM_Whittier_Stenzel_Mfg_Expantion": {
       "displayName": "Stenzel Mfg Expantion",
       "name": "Stenzel Mfg Expantion",
+      "defaultEnableInSandbox": true,
       "trackGroupsEnableOnUnlock": {
         "TMM_Whittier_Stenzel_Mfg_Expantion": true
       },
@@ -66,6 +207,55 @@
         "whittier-stenzel.loader-scrap-metal": true,
         "whittier-stenzel.loader-mow-machinery": true,
         "whittier-stenzel.loader-bridge-section": true
+      }
+    },
+    "TMM_Bryson_Cottonworks_Building": {
+      "displayName": "Building Wild Oak Cottonworks Co.",
+      "name": "Building Wild Oak Cottonworks Co.",
+      "defaultEnableInSandbox": true,
+      "trackGroupsEnableOnUnlock": {
+        "TMM_Bryson_Cottonworks": true
+      },
+      "trackGroupsAvailableOnUnlock": {
+        "TMM_Bryson_Cottonworks": true
+      },
+      "unlockIncludeIndustries": {
+        "TMM_Bryson_Cottonworks": true
+      }
+    },
+    "TMM_Bryson_Cottonworks_Low_Production": {
+      "displayName": "Low Production Mode Wild Oak Cottonworks Co.",
+      "name": "Low Production Mode Wild Oak Cottonworks Co.",
+      "defaultEnableInSandbox": true,
+      "unlockIncludeIndustryComponents": {
+        "TMM_Bryson_Cottonworks.formula-low": true
+      }
+    },
+    "TMM_Bryson_Cottonworks_High_Production": {
+      "displayName": "High Production Mode Wild Oak Cottonworks Co.",
+      "name": "High Production Mode Wild Oak Cottonworks Co.",
+      "defaultEnableInSandbox": false,
+      "unlockIncludeIndustryComponents": {
+        "TMM_Bryson_Cottonworks.formula-high": true
+      }
+    },
+    "TMM_Engine_Services_Machine_Parts": {
+      "displayName": "Engine Services Machine Parts",
+      "name": "Engine Services Machine Parts",
+      "defaultEnableInSandbox": true,
+      "trackGroupsEnableOnUnlock": {},
+      "trackGroupsAvailableOnUnlock": {},
+      "unlockIncludeIndustryComponents": {
+        "al-engine.machine-parts": true,
+        "al-engine.train-wheels": true,
+        "andrews-service.machine-parts": true,
+        "andrews-service.train-wheels": true,
+        "bryson-roundhouse-ops.machine-parts": true,
+        "bryson-roundhouse-ops.train-wheels": true,
+        "dillsboro-roundhouse-ops.machine-parts": true,
+        "dillsboro-roundhouse-ops.train-wheels": true,
+        "wh-e-engine.machine-parts": true,
+        "wh-e-engine.train-wheels": true
       }
     }
   }

@@ -2,7 +2,7 @@
   "manifestVersion": 5,
   "id": "Tcave.TcavesMachiningAndManufacturing",
   "name": "T-cave's Machining and Manufacturing",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "requires": [
     {
       "id": "railloader",
@@ -14,7 +14,7 @@
     },
     {
       "id": "NickB.TheStandardCatalogofLoadIDs",
-      "notBefore": "2.0"
+      "notBefore": "3.0"
     },
     {
       "id": "AlinaNova21.AlinasMapMod",

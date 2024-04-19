@@ -1,5 +1,57 @@
 {
 	"nodes": {
+		"Ntqo": {
+			"position": {
+				"x": 4813.64551,
+				"y": 665.746338,
+				"z": -2876.08521
+			},
+			"rotation": {
+				"x": 359.0,
+				"y": 17.2480087,
+				"z": -1.33422455E-08
+			},
+			"flipSwitchStand": false
+		},
+		"Nwek": {
+			"position": {
+				"x": 4822.659,
+				"y": 666.3462,
+				"z": -2847.03979
+			},
+			"rotation": {
+				"x": 359.000031,
+				"y": 17.24801,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"Nug7": {
+			"position": {
+				"x": 4914.867,
+				"y": 680.306946,
+				"z": -3772.64575
+			},
+			"rotation": {
+				"x": 358.5,
+				"y": 59.79899,
+				"z": -5.33791429E-08
+			},
+			"flipSwitchStand": false
+		},
+		"N6jt": {
+			"position": {
+				"x": 4889.793,
+				"y": 679.4913,
+				"z": -3787.25024
+			},
+			"rotation": {
+				"x": 358.499969,
+				"y": 59.7989845,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
 		"NTMM_Bryson_Cottonworks_kwz8": {
 			"position": {
 				"x": 4939.705,
@@ -23,19 +75,6 @@
 				"x": 4.966754E-11,
 				"y": 354.996765,
 				"z": -7.19588061E-05
-			},
-			"flipSwitchStand": false
-		},
-		"Nwek": {
-			"position": {
-				"x": 4822.663,
-				"y": 665.5464,
-				"z": -2847.02612
-			},
-			"rotation": {
-				"x": 0.0,
-				"y": 17.24801,
-				"z": 0.0
 			},
 			"flipSwitchStand": false
 		},
@@ -994,9 +1033,9 @@
 						},
 						"machine-parts": {
 							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Alarka Copper Co. MP1",
+							"name": "Alarka Copper Co. MP2",
 							"trackSpans": [
-								"P5ea"
+								"P30p"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -1802,35 +1841,6 @@
 				"z": 1
 			},
 			"modelIdentifier": "freight-house-general"
-		}
-	},
-	"loads": {
-		"workmen": {
-			"description": "Workmen",
-			"units": "Quantity",
-			"density": 300.0,
-			"unitWeightInPounds": 160.0,
-			"importable": true,
-			"payPerQuantity": 0.0,
-			"costPerUnit": 0.0
-		},
-		"yarn": {
-			"description": "Yarn",
-			"units": "Pounds",
-			"density": 15.0,
-			"unitWeightInPounds": 0.0,
-			"importable": true,
-			"payPerQuantity": 0.0,
-			"costPerUnit": 0.0
-		},
-		"sewing-thread": {
-			"description": "Sewing Thread",
-			"units": "Pounds",
-			"density": 15.0,
-			"unitWeightInPounds": 0.0,
-			"importable": true,
-			"payPerQuantity": 0.0,
-			"costPerUnit": 0.0
 		}
 	}
 }

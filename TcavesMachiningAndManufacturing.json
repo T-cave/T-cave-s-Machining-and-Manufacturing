@@ -26,44 +26,20 @@
 			},
 			"flipSwitchStand": false
 		},
-		"Nwek": {
-			"position": {
-				"x": 4800.28,
-				"y": 665.5464,
-				"z": -2839.0083
-			},
-			"rotation": {
-				"x": 0.0,
-				"y": 352.9943,
-				"z": 0.0
-			},
-			"flipSwitchStand": false
+		"N6jt": {
+		  "position": { "x": 4888.007, "y": 680.6269, "z": -3788.63623 },
+		  "rotation": { "x": 0.0, "y": 59.79899, "z": -5.33715223E-08 },
+		  "flipSwitchStand": false
 		},
 		"Nug7": {
-			"position": {
-				"x": 4914.867,
-				"y": 680.306946,
-				"z": -3772.64575
-			},
-			"rotation": {
-				"x": 358.5,
-				"y": 59.79899,
-				"z": -5.33791429E-08
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 4915.262, "y": 680.6269, "z": -3773.34131 },
+		  "rotation": { "x": 0.0, "y": 59.79899, "z": -5.33715223E-08 },
+		  "flipSwitchStand": false
 		},
-		"N6jt": {
-			"position": {
-				"x": 4889.793,
-				"y": 679.4913,
-				"z": -3787.25024
-			},
-			"rotation": {
-				"x": 358.499969,
-				"y": 59.7989845,
-				"z": 0.0
-			},
-			"flipSwitchStand": false
+		"Nwek": {
+		  "position": { "x": 4800.28, "y": 665.5464, "z": -2839.0083 },
+		  "rotation": { "x": 0.0, "y": 352.9943, "z": 0.0 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Bryson_Cottonworks_kwz8": {
 			"position": {
@@ -196,17 +172,9 @@
 			"flipSwitchStand": false
 		},
 		"N2bg": {
-			"position": {
-				"x": 5073.41,
-				"y": 528.7956,
-				"z": 5697.726
-			},
-			"rotation": {
-				"x": 0.250001252,
-				"y": 13.537,
-				"z": 359.099976
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 5073.4165, "y": 528.9955, "z": 5697.724 },
+		  "rotation": { "x": 359.05, "y": 13.53702, "z": -1.09671628E-05 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Bryson_Cottonworks_0s01": {
 			"position": {
@@ -443,30 +411,14 @@
 			"flipSwitchStand": false
 		},
 		"Ne1w": {
-			"position": {
-				"x": 12254.6572,
-				"y": 561.315,
-				"z": 5861.796
-			},
-			"rotation": {
-				"x": 0.0,
-				"y": 202.367981,
-				"z": 0.0
-			},
-			"flipSwitchStand": true
+		  "position": { "x": 12254.6572, "y": 561.394958, "z": 5861.796 },
+		  "rotation": { "x": 0.0, "y": 202.367981, "z": 0.0 },
+		  "flipSwitchStand": true
 		},
 		"N6an": {
-			"position": {
-				"x": 12246.7588,
-				"y": 561.315,
-				"z": 5846.633
-			},
-			"rotation": {
-				"x": 0.0,
-				"y": 211.8868,
-				"z": 0.0
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12246.7588, "y": 561.415, "z": 5846.633 },
+		  "rotation": { "x": 0.0, "y": 211.8868, "z": 0.0 },
+		  "flipSwitchStand": false
 		},
 		"Np1s": {
 			"position": {
@@ -482,95 +434,39 @@
 			"flipSwitchStand": false
 		},
 		"fa7228": {
-			"position": {
-				"x": 12195.213882709311,
-				"y": 561.9,
-				"z": 5778.788208652507
-			},
-			"rotation": {
-				"x": 0.8,
-				"y": 22.3765888,
-				"z": 0.0
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12195.2139, "y": 562.3, "z": 5778.788 },
+		  "rotation": { "x": 0.0, "y": 22.3765888, "z": 0.0 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_track_B1_0": {
-			"position": {
-				"x": 12210.2539,
-				"y": 561.5631,
-				"z": 5802.65967
-			},
-			"rotation": {
-				"x": 359.4591,
-				"y": 221.43605,
-				"z": 359.889343
-			},
-			"flipSwitchStand": true
-		},
-		"NTMM_Stenzel_Mfg_crossing_00": {
-			"position": {
-				"x": 12233.0479,
-				"y": 561.35,
-				"z": 5828.367
-			},
-			"rotation": {
-				"x": 359.199982,
-				"y": 220.499771,
-				"z": 359.599976
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12210.2549, "y": 561.970032, "z": 5802.65869 },
+		  "rotation": { "x": 359.1991, "y": 221.436035, "z": -0.000645676 },
+		  "flipSwitchStand": true
 		},
 		"NTMM_Stenzel_Mfg_crossing_01": {
-			"position": {
-				"x": 12223.9385,
-				"y": 561.43,
-				"z": 5818.00342
-			},
-			"rotation": {
-				"x": 359.8,
-				"y": 221.640182,
-				"z": 5.33611768E-08
-			},
-			"flipSwitchStand": true
+		  "position": { "x": 12223.9385, "y": 561.6499, "z": 5818.006 },
+		  "rotation": { "x": 359.509735, "y": 221.640167, "z": 0.200037271 },
+		  "flipSwitchStand": true
+		},
+		"NTMM_Stenzel_Mfg_crossing_00": {
+		  "position": { "x": 12233.0479, "y": 561.47, "z": 5828.36865 },
+		  "rotation": { "x": 359.299957, "y": 220.499771, "z": 0.100010015 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_track_O3_0": {
-			"position": {
-				"x": 12197.9736,
-				"y": 561.7226,
-				"z": 5791.06543
-			},
-			"rotation": {
-				"x": 359.4591,
-				"y": 231.436035,
-				"z": 359.889343
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12197.9746, "y": 562.2299, "z": 5791.066 },
+		  "rotation": { "x": 359.4991, "y": 231.43605, "z": -0.0006735998 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_track_O3_1": {
-			"position": {
-				"x": 12162.2275,
-				"y": 562.5953,
-				"z": 5773.24072
-			},
-			"rotation": {
-				"x": 359.4591,
-				"y": 251.436035,
-				"z": 359.889343
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12162.2275, "y": 562.3, "z": 5773.24072 },
+		  "rotation": { "x": 359.4591, "y": 251.436035, "z": 359.889343 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_track_B2_0": {
-			"position": {
-				"x": 12199.83827365374,
-				"y": 561.9,
-				"z": 5776.886891618124
-			},
-			"rotation": {
-				"x": 0.8,
-				"y": 22.3765888,
-				"z": 0.0
-			},
-			"flipSwitchStand": false
+		  "position": { "x": 12199.8379, "y": 562.3, "z": 5776.88672 },
+		  "rotation": { "x": 0.0, "y": 22.3765888, "z": 0.0 },
+		  "flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_track_B2_1": {
 			"position": {
@@ -594,7 +490,7 @@
 			"trackClass": "Industrial"
 		},
 		"STMM_Bryson_Cottonworks_q1qw": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_5n6u",
 			"endId": "NTMM_Bryson_Cottonworks_e150",
@@ -603,7 +499,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_nkw6": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_e150",
 			"endId": "NTMM_Bryson_Cottonworks_kpdv",
@@ -612,7 +508,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_l4jm": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_kwz8",
 			"endId": "NTMM_Bryson_Cottonworks_cfee",
@@ -621,7 +517,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_owwa": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_cfee",
 			"endId": "NTMM_Bryson_Cottonworks_e150",
@@ -630,7 +526,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_tt6t": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_1fuk",
 			"endId": "NTMM_Bryson_Cottonworks_kpdv",
@@ -639,7 +535,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_htyd": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_xhuv",
 			"endId": "NTMM_Bryson_Cottonworks_x2st",
@@ -648,7 +544,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_y89h": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_x2st",
 			"endId": "NTMM_Bryson_Cottonworks_7rs3",
@@ -657,7 +553,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_u89x": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_x2st",
 			"endId": "NTMM_Bryson_Cottonworks_5n6u",
@@ -666,7 +562,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_exic": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_x3yc",
 			"endId": "NTMM_Bryson_Cottonworks_kcy4",
@@ -675,7 +571,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_d2ay": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_kcy4",
 			"endId": "NTMM_Bryson_Cottonworks_dzig",
@@ -684,7 +580,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_13cy": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_dzig",
 			"endId": "NTMM_Bryson_Cottonworks_5n6u",
@@ -693,7 +589,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_0xgl": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_r7zj",
 			"endId": "NTMM_Bryson_Cottonworks_dzig",
@@ -702,7 +598,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_t67p": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_g4la",
 			"endId": "NTMM_Bryson_Cottonworks_xhuv",
@@ -711,7 +607,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_w4c3": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_7rs3",
 			"endId": "NTMM_Bryson_Cottonworks_99yf",
@@ -720,7 +616,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_v578": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_99yf",
 			"endId": "NTMM_Bryson_Cottonworks_0s01",
@@ -729,7 +625,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_nubt": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_xhuv",
 			"endId": "NTMM_Bryson_Cottonworks_4pdb",
@@ -738,7 +634,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_tnu5": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_4pdb",
 			"endId": "NTMM_Bryson_Cottonworks_41f9",
@@ -747,7 +643,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_1p8i": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_7rs3",
 			"endId": "NTMM_Bryson_Cottonworks_voak",
@@ -756,7 +652,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_fet3": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_voak",
 			"endId": "NTMM_Bryson_Cottonworks_npwz",
@@ -765,7 +661,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_tj75": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_5vb3",
 			"endId": "NTMM_Bryson_Cottonworks_41f9",
@@ -774,7 +670,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_2hgb": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_npwz",
 			"endId": "NTMM_Bryson_Cottonworks_s2tm",
@@ -783,7 +679,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_383v": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_1fuk",
 			"endId": "NTMM_Bryson_Cottonworks_8y35",
@@ -792,7 +688,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_rjbt": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_3u46",
 			"endId": "NTMM_Bryson_Cottonworks_r7zj",
@@ -801,7 +697,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_75w6": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_0s01",
 			"endId": "NTMM_Bryson_Cottonworks_lw7d",
@@ -810,7 +706,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_e7fx": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_kpdv",
 			"endId": "NTMM_Bryson_Cottonworks_22h5",
@@ -828,7 +724,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_tyma": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_5nnk",
 			"endId": "NTMM_Bryson_Cottonworks_x3yc",
@@ -837,7 +733,7 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"STMM_Bryson_Cottonworks_9a6q": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_x3yc",
 			"endId": "NTMM_Bryson_Cottonworks_g4la",
@@ -850,10 +746,11 @@
 			"startId": "NTMM_Stenzel_Mfg_crossing_00"
 		},
 		"q06god": {
+			"style": "Yard",
 			"trackClass": "Industrial"
 		},
 		"STMM_Stenzel_Mfg_track_O3_0": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
 			"endId": "NTMM_Stenzel_Mfg_track_O3_0",
@@ -862,7 +759,7 @@
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_O3_1": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_track_O3_0",
 			"endId": "NTMM_Stenzel_Mfg_track_O3_1",
@@ -871,7 +768,7 @@
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B2_0": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_01",
 			"endId": "NTMM_Stenzel_Mfg_track_B2_0",
@@ -880,7 +777,7 @@
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B2_1": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_track_B2_0",
 			"endId": "NTMM_Stenzel_Mfg_track_B2_1",
@@ -889,7 +786,7 @@
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B1_0": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_01",
 			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
@@ -898,7 +795,7 @@
 			"groupId": ""
 		},
 		"STMM_Stenzel_Mfg_track_B1_1": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
 			"endId": "fa7228",
@@ -907,7 +804,7 @@
 			"groupId": ""
 		},
 		"STMM_Stenzel_Mfg_Crossing_0": {
-			"style": "Standard",
+			"style": "Yard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_00",
 			"endId": "NTMM_Stenzel_Mfg_crossing_01",

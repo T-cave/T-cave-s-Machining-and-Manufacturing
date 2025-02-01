@@ -42,8 +42,12 @@
               "industryComponent": "whittier-stenzel.site"
             }
           ],
+          "disableFeaturesOnUnlock": {
+            "TMM_Whittier_Stenzel_Mfg_Basic_Formula": true
+          },
           "enableFeaturesOnUnlock": {
-            "TMM_Whittier_Stenzel_Mfg_Expantion": true
+            "TMM_Whittier_Stenzel_Mfg_Expantion": true,
+            "TMM_Whittier_Stenzel_Mfg_Expanded_Formula": true            
           },
           "prerequisiteSections": {},
           "description": "Stenzel Mfg. in Whittier wants to expand their output, in order to do so they need you to build a second track at their company."
@@ -167,21 +171,6 @@
             "TMM_Bryson_Cottonworks_High_Production": true
           },
           "enableFeaturesOnAvailable": {}
-        },
-        "TMM_Engine_Services_Machine_Parts": {
-          "displayName": "Engine Services Machine Parts",
-          "deliveryPhases": [
-            {
-              "cost": 0,
-              "deliveries": [],
-              "industryComponent": ""
-            }
-          ],
-          "enableFeaturesOnUnlock": {
-            "TMM_Engine_Services_Machine_Parts": true
-          },
-          "prerequisiteSections": {},
-          "description": "If you purchase this milestone you will need to deliver Machine Parts and Train Wheels to all Engine Services with a repair facility that you have unlocked, even if you have no mechanics working there.\n\nThese are: Dillsboro, Whittier, Bryson, Alarka and Andrews"
         }
       }
     }
@@ -196,7 +185,7 @@
     "TMM_Whittier_Stenzel_Mfg_Expantion": {
       "displayName": "Stenzel Mfg Expantion",
       "name": "Stenzel Mfg Expantion",
-      "defaultEnableInSandbox": true,
+      "defaultEnableInSandbox": false,
       "trackGroupsEnableOnUnlock": {
         "TMM_Whittier_Stenzel_Mfg_Expantion": true
       },
@@ -204,9 +193,26 @@
         "TMM_Whittier_Stenzel_Mfg_Expantion": true
       },
       "unlockIncludeIndustryComponents": {
+        "whittier-stenzel.loader-farming-machinery": true,
         "whittier-stenzel.loader-scrap-metal": true,
         "whittier-stenzel.loader-mow-machinery": true,
         "whittier-stenzel.loader-bridge-section": true
+      }
+    },
+    "TMM_Whittier_Stenzel_Mfg_Basic_Formula": {
+      "displayName": "Basic Formula for Stenzel Mfg production",
+      "name": "Basic Formula for Stenzel Mfg production",
+      "defaultEnableInSandbox": true,
+      "unlockIncludeIndustryComponents": {
+        "whittier-stenzel.formula": true
+      }
+    },
+    "TMM_Whittier_Stenzel_Mfg_Expanded_Formula": {
+      "displayName": "Expaned Formula for Stenzel Mfg production",
+      "name": "Expaned Formula for Stenzel Mfg production",
+      "defaultEnableInSandbox": false,
+      "unlockIncludeIndustryComponents": {
+        "whittier-stenzel.formula-expanded": true
       }
     },
     "TMM_Bryson_Cottonworks_Building": {
@@ -237,25 +243,6 @@
       "defaultEnableInSandbox": false,
       "unlockIncludeIndustryComponents": {
         "TMM_Bryson_Cottonworks.formula-high": true
-      }
-    },
-    "TMM_Engine_Services_Machine_Parts": {
-      "displayName": "Engine Services Machine Parts",
-      "name": "Engine Services Machine Parts",
-      "defaultEnableInSandbox": true,
-      "trackGroupsEnableOnUnlock": {},
-      "trackGroupsAvailableOnUnlock": {},
-      "unlockIncludeIndustryComponents": {
-        "al-engine.machine-parts": true,
-        "al-engine.train-wheels": true,
-        "andrews-service.machine-parts": true,
-        "andrews-service.train-wheels": true,
-        "bryson-roundhouse-ops.machine-parts": true,
-        "bryson-roundhouse-ops.train-wheels": true,
-        "dillsboro-roundhouse-ops.machine-parts": true,
-        "dillsboro-roundhouse-ops.train-wheels": true,
-        "wh-e-engine.machine-parts": true,
-        "wh-e-engine.train-wheels": true
       }
     }
   }

@@ -1,27 +1,40 @@
 {
 	"nodes": {
-		"Ntqo": {
+		"Note": {
 			"position": {
-				"x": 4813.64551,
-				"y": 665.746338,
-				"z": -2876.08521
+				"x": -30361.1855,
+				"y": 537.37,
+				"z": -20254.6582
 			},
 			"rotation": {
-				"x": 359.0,
-				"y": 17.2480087,
-				"z": -1.33422455E-08
+				"x": 0.0,
+				"y": 256.2914,
+				"z": 0.0
+			},
+			"flipSwitchStand": false
+		},
+		"N5um": {
+			"position": {
+				"x": -30362.6855,
+				"y": 537.37,
+				"z": -20249.709
+			},
+			"rotation": {
+				"x": 0.0,
+				"y": 256.2914,
+				"z": 0.0
 			},
 			"flipSwitchStand": false
 		},
 		"Nwek": {
 			"position": {
-				"x": 4822.659,
-				"y": 666.3462,
-				"z": -2847.03979
+				"x": 4800.28,
+				"y": 665.5464,
+				"z": -2839.0083
 			},
 			"rotation": {
-				"x": 359.000031,
-				"y": 17.24801,
+				"x": 0.0,
+				"y": 352.9943,
 				"z": 0.0
 			},
 			"flipSwitchStand": false
@@ -481,33 +494,72 @@
 			},
 			"flipSwitchStand": false
 		},
+		"NTMM_Stenzel_Mfg_track_B1_0": {
+			"position": {
+				"x": 12210.2539,
+				"y": 561.5631,
+				"z": 5802.65967
+			},
+			"rotation": {
+				"x": 359.4591,
+				"y": 221.43605,
+				"z": 359.889343
+			},
+			"flipSwitchStand": true
+		},
 		"NTMM_Stenzel_Mfg_crossing_00": {
 			"position": {
 				"x": 12233.0479,
-				"y": 561.4,
+				"y": 561.35,
 				"z": 5828.367
 			},
 			"rotation": {
-				"x": 0.0,
-				"y": 220.399887,
-				"z": 0.0
+				"x": 359.199982,
+				"y": 220.499771,
+				"z": 359.599976
 			},
 			"flipSwitchStand": false
 		},
 		"NTMM_Stenzel_Mfg_crossing_01": {
 			"position": {
 				"x": 12223.9385,
-				"y": 561.480042,
+				"y": 561.43,
 				"z": 5818.00342
 			},
 			"rotation": {
-				"x": 0.0,
+				"x": 359.8,
 				"y": 221.640182,
-				"z": 0.0
+				"z": 5.33611768E-08
 			},
 			"flipSwitchStand": true
 		},
-		"NTMM_Stenzel_Mfg_track_B1_0": {
+		"NTMM_Stenzel_Mfg_track_O3_0": {
+			"position": {
+				"x": 12197.9736,
+				"y": 561.7226,
+				"z": 5791.06543
+			},
+			"rotation": {
+				"x": 359.4591,
+				"y": 231.436035,
+				"z": 359.889343
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_track_O3_1": {
+			"position": {
+				"x": 12162.2275,
+				"y": 562.5953,
+				"z": 5773.24072
+			},
+			"rotation": {
+				"x": 359.4591,
+				"y": 251.436035,
+				"z": 359.889343
+			},
+			"flipSwitchStand": false
+		},
+		"NTMM_Stenzel_Mfg_track_B2_0": {
 			"position": {
 				"x": 12199.83827365374,
 				"y": 561.9,
@@ -520,7 +572,7 @@
 			},
 			"flipSwitchStand": false
 		},
-		"NTMM_Stenzel_Mfg_track_B1_1": {
+		"NTMM_Stenzel_Mfg_track_B2_1": {
 			"position": {
 				"x": 12184.98869101722,
 				"y": 562.3,
@@ -535,12 +587,18 @@
 		}
 	},
 	"segments": {
+		"S24e": {
+			"trackClass": "Industrial"
+		},
+		"Shni": {
+			"trackClass": "Industrial"
+		},
 		"STMM_Bryson_Cottonworks_q1qw": {
 			"style": "Standard",
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_5n6u",
 			"endId": "NTMM_Bryson_Cottonworks_e150",
-			"priority": 0,
+			"priority": 1,
 			"speedLimit": 15,
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
@@ -549,7 +607,7 @@
 			"trackClass": "Industrial",
 			"startId": "NTMM_Bryson_Cottonworks_e150",
 			"endId": "NTMM_Bryson_Cottonworks_kpdv",
-			"priority": 0,
+			"priority": 1,
 			"speedLimit": 15,
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
@@ -788,30 +846,61 @@
 			"groupId": "TMM_Bryson_Cottonworks"
 		},
 		"Sgov": {
+			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_00"
 		},
-		"STMM_Stenzel_Mfg_track_B1_0": {
+		"q06god": {
+			"trackClass": "Industrial"
+		},
+		"STMM_Stenzel_Mfg_track_O3_0": {
 			"style": "Standard",
-			"trackClass": "Mainline",
-			"startId": "NTMM_Stenzel_Mfg_crossing_01",
-			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"trackClass": "Industrial",
+			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"endId": "NTMM_Stenzel_Mfg_track_O3_0",
 			"priority": 0,
 			"speedLimit": 0,
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
-		"STMM_Stenzel_Mfg_track_B1_1": {
+		"STMM_Stenzel_Mfg_track_O3_1": {
 			"style": "Standard",
-			"trackClass": "Mainline",
-			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
-			"endId": "NTMM_Stenzel_Mfg_track_B1_1",
+			"trackClass": "Industrial",
+			"startId": "NTMM_Stenzel_Mfg_track_O3_0",
+			"endId": "NTMM_Stenzel_Mfg_track_O3_1",
 			"priority": 0,
 			"speedLimit": 0,
 			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
 		},
 		"STMM_Stenzel_Mfg_track_B2_0": {
 			"style": "Standard",
-			"trackClass": "Mainline",
+			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "NTMM_Stenzel_Mfg_track_B2_0",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
+		},
+		"STMM_Stenzel_Mfg_track_B2_1": {
+			"style": "Standard",
+			"trackClass": "Industrial",
+			"startId": "NTMM_Stenzel_Mfg_track_B2_0",
+			"endId": "NTMM_Stenzel_Mfg_track_B2_1",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": "TMM_Whittier_Stenzel_Mfg_Expantion"
+		},
+		"STMM_Stenzel_Mfg_track_B1_0": {
+			"style": "Standard",
+			"trackClass": "Industrial",
+			"startId": "NTMM_Stenzel_Mfg_crossing_01",
+			"endId": "NTMM_Stenzel_Mfg_track_B1_0",
+			"priority": 0,
+			"speedLimit": 0,
+			"groupId": ""
+		},
+		"STMM_Stenzel_Mfg_track_B1_1": {
+			"style": "Standard",
+			"trackClass": "Industrial",
+			"startId": "NTMM_Stenzel_Mfg_track_B1_0",
 			"endId": "fa7228",
 			"priority": 0,
 			"speedLimit": 0,
@@ -819,7 +908,7 @@
 		},
 		"STMM_Stenzel_Mfg_Crossing_0": {
 			"style": "Standard",
-			"trackClass": "Mainline",
+			"trackClass": "Industrial",
 			"startId": "NTMM_Stenzel_Mfg_crossing_00",
 			"endId": "NTMM_Stenzel_Mfg_crossing_01",
 			"priority": 0,
@@ -919,8 +1008,8 @@
 				"end": "End"
 			},
 			"lower": {
-				"segmentId": "STMM_Stenzel_Mfg_track_B2_0",
-				"distance": 40.8,
+				"segmentId": "STMM_Stenzel_Mfg_track_B1_1",
+				"distance": 20.0,
 				"end": "Start"
 			}
 		},
@@ -933,18 +1022,6 @@
 			"lower": {
 				"segmentId": "Scx2",
 				"distance": 3.0,
-				"end": "Start"
-			}
-		},
-		"PTMM-Alarka-Engine-Parts": {
-			"upper": {
-				"segmentId": "Sbig",
-				"distance": 0.0,
-				"end": "End"
-			},
-			"lower": {
-				"segmentId": "S1uk",
-				"distance": 0.0,
 				"end": "Start"
 			}
 		},
@@ -984,15 +1061,27 @@
 				"end": "Start"
 			}
 		},
-		"PTMM-Whittier-Stenzel-B1": {
+		"PTMM-Whittier-Stenzel-B2": {
 			"upper": {
-				"segmentId": "STMM_Stenzel_Mfg_track_B1_1",
+				"segmentId": "STMM_Stenzel_Mfg_track_B2_1",
 				"distance": 0.0,
 				"end": "End"
 			},
 			"lower": {
-				"segmentId": "STMM_Stenzel_Mfg_track_B1_0",
-				"distance": 40.0,
+				"segmentId": "STMM_Stenzel_Mfg_track_B2_0",
+				"distance": 30.0,
+				"end": "Start"
+			}
+		},
+		"PTMM-Whittier-Stenzel-O3": {
+			"upper": {
+				"segmentId": "STMM_Stenzel_Mfg_track_O3_1",
+				"distance": 0.0,
+				"end": "End"
+			},
+			"lower": {
+				"segmentId": "STMM_Stenzel_Mfg_track_O3_1",
+				"distance": 5.0,
 				"end": "Start"
 			}
 		}
@@ -1008,7 +1097,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Alarka Copper Co. MP1",
 							"trackSpans": [
 								"Po7t"
@@ -1032,7 +1121,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Alarka Copper Co. MP2",
 							"trackSpans": [
 								"P30p"
@@ -1051,7 +1140,7 @@
 				"alarka-lsmith": {
 					"components": {
 						"b5-train-wheels": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "L. Smith Machining B5",
 							"trackSpans": [
 								"Pk2u"
@@ -1066,7 +1155,7 @@
 							"orderAroundLoaded": true
 						},
 						"b5-scrap-metal": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "L. Smith Machining B5",
 							"trackSpans": [
 								"Pk2u"
@@ -1078,40 +1167,6 @@
 							"maxStorage": 30000.0,
 							"orderAroundEmpties": true,
 							"carTransferRate": 100000.0,
-							"orderAroundLoaded": true
-						}
-					}
-				},
-				"al-engine": {
-					"components": {
-						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Alarka Engine Service MP1",
-							"trackSpans": [
-								"PTMM-Alarka-Engine-Parts"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "boxcar-parts",
-							"storageChangeRate": 11000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						},
-						"train-wheels": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Alarka Engine Service MP1",
-							"trackSpans": [
-								"PTMM-Alarka-Engine-Parts"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "train-wheels",
-							"storageChangeRate": 8000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
 						}
 					}
@@ -1128,7 +1183,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Robinson Gap Coal MP1",
 							"trackSpans": [
 								"P4go"
@@ -1156,7 +1211,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Snowbird Paper MP1",
 							"trackSpans": [
 								"Pxfm"
@@ -1168,40 +1223,6 @@
 							"maxStorage": 20000.0,
 							"orderAroundEmpties": true,
 							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						}
-					}
-				},
-				"andrews-service": {
-					"components": {
-						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Andrews Engine Service MP1",
-							"trackSpans": [
-								"P7ev"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "boxcar-parts",
-							"storageChangeRate": 12500.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						},
-						"train-wheels": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Andrews Engine Service MP1",
-							"trackSpans": [
-								"P7ev"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "train-wheels",
-							"storageChangeRate": 15000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 1000000.0,
 							"orderAroundLoaded": true
 						}
 					}
@@ -1217,8 +1238,11 @@
 								"boxcar-parts": 15000.0
 							}
 						},
+						"r1": {
+							"maxStorage": 600000.0
+						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Appalachian Hardwoods MP1",
 							"trackSpans": [
 								"Py41"
@@ -1234,40 +1258,6 @@
 						}
 					}
 				},
-				"bryson-roundhouse-ops": {
-					"components": {
-						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Bryson Engine Service MP1",
-							"trackSpans": [
-								"Pcf7"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "boxcar-parts",
-							"storageChangeRate": 30000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						},
-						"train-wheels": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Bryson Engine Service MP1",
-							"trackSpans": [
-								"Pcf7"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "train-wheels",
-							"storageChangeRate": 18000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 1000000.0,
-							"orderAroundLoaded": true
-						}
-					}
-				},
 				"TMM_Bryson_Cottonworks": {
 					"name": "Wild Oak Cottonworks Co.",
 					"localPosition": {
@@ -1278,7 +1268,7 @@
 					"usesContract": true,
 					"components": {
 						"formula-high": {
-							"type": "Model.OpsNew.FormulaicIndustryComponent",
+							"type": "Model.Ops.FormulaicIndustryComponent",
 							"name": "Wild Oak Cottonworks Co.",
 							"trackSpans": [],
 							"carTypeFilter": "",
@@ -1300,7 +1290,7 @@
 							}
 						},
 						"formula-low": {
-							"type": "Model.OpsNew.FormulaicIndustryComponent",
+							"type": "Model.Ops.FormulaicIndustryComponent",
 							"name": "Wild Oak Cottonworks Co.",
 							"trackSpans": [],
 							"carTypeFilter": "",
@@ -1322,7 +1312,7 @@
 							}
 						},
 						"cotton": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. MH1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Machine_Building"
@@ -1337,7 +1327,7 @@
 							"orderAroundLoaded": true
 						},
 						"coal": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. PH1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Powerhouse"
@@ -1352,7 +1342,7 @@
 							"orderAroundLoaded": true
 						},
 						"caustic-soda": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. F1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Finishing"
@@ -1367,7 +1357,7 @@
 							"orderAroundLoaded": true
 						},
 						"tannic-acid": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. F1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Finishing"
@@ -1382,7 +1372,7 @@
 							"orderAroundLoaded": true
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. MP1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Finishing"
@@ -1397,7 +1387,7 @@
 							"orderAroundLoaded": true
 						},
 						"chemicals-2": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. C1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Chemicals"
@@ -1412,7 +1402,7 @@
 							"orderAroundLoaded": true
 						},
 						"chemicals-3": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Wild Oak Cottonworks Co. C1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Chemicals"
@@ -1427,7 +1417,7 @@
 							"orderAroundLoaded": true
 						},
 						"chemicals": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "Wild Oak Cottonworks Co. C1",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Chemicals"
@@ -1442,7 +1432,7 @@
 							"orderAroundLoaded": true
 						},
 						"textiles": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "Wild Oak Cottonworks Co. R1/R2",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Freight_Storage_1",
@@ -1458,7 +1448,7 @@
 							"orderAroundLoaded": true
 						},
 						"yarn": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "Wild Oak Cottonworks Co. R1/R2",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Freight_Storage_1",
@@ -1474,7 +1464,7 @@
 							"orderAroundLoaded": true
 						},
 						"sewing-thread": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "Wild Oak Cottonworks Co. R1/R2",
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Freight_Storage_1",
@@ -1491,7 +1481,7 @@
 						},
 						"expantion_site": {
 							"name": "Wild Oak Cottonworks Co. Upgrade",
-							"type": "Model.OpsNew.ProgressionIndustryComponent",
+							"type": "Model.Ops.ProgressionIndustryComponent",
 							"carTypeFilter": "*",
 							"sharedStorage": true,
 							"trackSpans": [
@@ -1505,53 +1495,16 @@
 					}
 				},
 				"TMM_Progression_Bryson_Cottonworks": {
+					"name": "Wild Oak Cottonworks Co. Construction site",
 					"components": {
 						"build_site": {
 							"name": "Wild Oak Cottonworks Co. Building Site",
-							"type": "Model.OpsNew.ProgressionIndustryComponent",
+							"type": "Model.Ops.ProgressionIndustryComponent",
 							"carTypeFilter": "*",
 							"sharedStorage": true,
 							"trackSpans": [
 								"PTMM_Bryson_Cottonworks_Building_Site"
 							]
-						}
-					}
-				}
-			}
-		},
-		"dillsboro": {
-			"industries": {
-				"dillsboro-roundhouse-ops": {
-					"components": {
-						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Dillsboro Engine Service MP1",
-							"trackSpans": [
-								"Poi6"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "boxcar-parts",
-							"storageChangeRate": 25000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						},
-						"train-wheels": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "Dillsboro Engine Service MP1",
-							"trackSpans": [
-								"Poi6"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "train-wheels",
-							"storageChangeRate": 12000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 1000000.0,
-							"orderAroundLoaded": true
 						}
 					}
 				}
@@ -1567,7 +1520,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Sylva Paperboard MP1",
 							"trackSpans": [
 								"PTMM-Sylva-Paperboard-Machine-Parts"
@@ -1591,7 +1544,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Parson's Tannery MP1",
 							"trackSpans": [
 								"PTMM-Sylva-Parsons-Machine-Parts"
@@ -1619,7 +1572,7 @@
 							}
 						},
 						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
+							"type": "Model.Ops.IndustryUnloader",
 							"name": "Whittier Saw Mill MP1",
 							"trackSpans": [
 								"PTMM-Whittier-Sawmill-Machine-Parts"
@@ -1637,6 +1590,23 @@
 				},
 				"whittier-stenzel": {
 					"components": {
+						"formula-expanded": {
+							"type": "Model.Ops.FormulaicIndustryComponent",
+							"name": "Stenzel Mfg",
+							"trackSpans": [],
+							"carTypeFilter": "",
+							"sharedStorage": true,
+							"inputTermsPerDay": {
+								"boxcar-metal-stock": 100000.0
+							},
+							"outputTermsPerDay": {
+								"boxcar-parts": 70000.0,
+								"farming-machinery": 50000.0,
+								"bridge-section": 40000.0,
+								"scrap-metal": 10000.0,
+								"mow-machinery": 20000.0
+							}
+						},
 						"unloader": {
 							"name": "Stenzel Mfg B1"
 						},
@@ -1644,10 +1614,10 @@
 							"name": "Stenzel Mfg B1"
 						},
 						"loader-farming-machinery": {
-							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B1",
+							"type": "Model.Ops.IndustryLoader",
+							"name": "Stenzel Mfg B2",
 							"trackSpans": [
-								"Pprf"
+								"PTMM-Whittier-Stenzel-B2"
 							],
 							"carTypeFilter": "XM*,FM*",
 							"sharedStorage": true,
@@ -1659,10 +1629,10 @@
 							"orderAroundLoaded": true
 						},
 						"loader-bridge-section": {
-							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B2",
+							"type": "Model.Ops.IndustryLoader",
+							"name": "Stenzel Mfg O3",
 							"trackSpans": [
-								"PTMM-Whittier-Stenzel-B1"
+								"PTMM-Whittier-Stenzel-O3"
 							],
 							"carTypeFilter": "FM*",
 							"sharedStorage": true,
@@ -1674,10 +1644,10 @@
 							"orderAroundLoaded": true
 						},
 						"loader-scrap-metal": {
-							"type": "Model.OpsNew.IndustryLoader",
-							"name": "Stenzel Mfg B2",
+							"type": "Model.Ops.IndustryLoader",
+							"name": "Stenzel Mfg O3",
 							"trackSpans": [
-								"PTMM-Whittier-Stenzel-B1"
+								"PTMM-Whittier-Stenzel-O3"
 							],
 							"carTypeFilter": "GB*",
 							"sharedStorage": true,
@@ -1689,12 +1659,12 @@
 							"orderAroundLoaded": true
 						},
 						"loader-mow-machinery": {
-							"type": "Model.OpsNew.IndustryLoader",
+							"type": "Model.Ops.IndustryLoader",
 							"name": "Stenzel Mfg B2",
 							"trackSpans": [
-								"PTMM-Whittier-Stenzel-B1"
+								"PTMM-Whittier-Stenzel-B2"
 							],
-							"carTypeFilter": "FM*",
+							"carTypeFilter": "F*",
 							"sharedStorage": true,
 							"loadId": "mow-machinery",
 							"storageChangeRate": 20000.0,
@@ -1705,7 +1675,7 @@
 						},
 						"site": {
 							"name": "Stenzel Mfg Expantion",
-							"type": "Model.OpsNew.ProgressionIndustryComponent",
+							"type": "Model.Ops.ProgressionIndustryComponent",
 							"carTypeFilter": "*",
 							"sharedStorage": true,
 							"trackSpans": [
@@ -1713,46 +1683,12 @@
 							]
 						}
 					}
-				},
-				"wh-e-engine": {
-					"components": {
-						"machine-parts": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "East Whittier Engine Service MP1",
-							"trackSpans": [
-								"Pap9"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "boxcar-parts",
-							"storageChangeRate": 15000.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 500000.0,
-							"orderAroundLoaded": true
-						},
-						"train-wheels": {
-							"type": "Model.OpsNew.IndustryUnloader",
-							"name": "East Whittier Engine Service MP1",
-							"trackSpans": [
-								"Pap9"
-							],
-							"carTypeFilter": "XM*,FM*",
-							"sharedStorage": true,
-							"loadId": "train-wheels",
-							"storageChangeRate": 7500.0,
-							"maxStorage": 20000.0,
-							"orderAroundEmpties": true,
-							"carTransferRate": 1000000.0,
-							"orderAroundLoaded": true
-						}
-					}
 				}
 			}
 		}
 	},
 	"scenery": {
-		"CTMM_Bryson_Cottonworks_Machine_Building": {
+		"ETMM_Bryson_Cottonworks_Machine_Building": {
 			"position": {
 				"x": 4905,
 				"y": 530,
@@ -1770,7 +1706,7 @@
 			},
 			"modelIdentifier": "paperboard-debarking"
 		},
-		"CTMM_Bryson_Cottonworks_Powerhouse": {
+		"ETMM_Bryson_Cottonworks_Powerhouse": {
 			"position": {
 				"x": 4958,
 				"y": 530,
@@ -1788,7 +1724,7 @@
 			},
 			"modelIdentifier": "power-house-large"
 		},
-		"CTMM_Bryson_Cottonworks_Powerstack": {
+		"ETMM_Bryson_Cottonworks_Powerstack": {
 			"position": {
 				"x": 4948,
 				"y": 530,
@@ -1806,7 +1742,7 @@
 			},
 			"modelIdentifier": "power-house-stack"
 		},
-		"CTMM_Bryson_Cottonworks_Finishing": {
+		"ETMM_Bryson_Cottonworks_Finishing": {
 			"position": {
 				"x": 4905,
 				"y": 530.1,
@@ -1824,7 +1760,7 @@
 			},
 			"modelIdentifier": "paperboard-shredding"
 		},
-		"CTMM_Bryson_Cottonworks_Freight_Storage": {
+		"ETMM_Bryson_Cottonworks_Freight_Storage": {
 			"position": {
 				"x": 4918,
 				"y": 530,
@@ -1841,6 +1777,17 @@
 				"z": 1
 			},
 			"modelIdentifier": "freight-house-general"
+		}
+	},
+	"loads": {
+		"workmen": {
+			"description": "Workmen",
+			"units": "Quantity",
+			"density": 300.0,
+			"unitWeightInPounds": 160.0,
+			"importable": true,
+			"payPerQuantity": 0.0,
+			"costPerUnit": 0.0
 		}
 	}
 }
